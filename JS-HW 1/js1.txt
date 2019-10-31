@@ -1,0 +1,8 @@
+1.Explain in your own words the difference between declaring variables via var, let and const.
+
+my answer: we can redeclare and update var variable but we cant redeclare let variable. I mean if we wrote something like that var gogi = "boy" after that we can write again var gogi = "girl" the outcome will be girl but if we write let gogi = "boy" then let gogi = "girl" it will be an error,we can only redeclare let inside another scope but it will work only inside that scope and const variable cannot be updated. with const we can only change the inside of the object 
+
+2.Why is declaration of a variable via var considered a bad tone?
+
+my answer: because it is not safe.creating many var variables is a bad thing because it's easy to forget you declared a variable somewhere and accidentally re-declare it somewhere else. If your first variable was local then you don't have a problem.But If it was global, then it just got overwritten.
+.

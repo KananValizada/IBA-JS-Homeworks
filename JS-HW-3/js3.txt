@@ -1,0 +1,7 @@
+1.Describe in your own words what the functions in programming are for.
+
+my answer: functions are the tools that we can write codes inside of it and when we call that function it will perform an action related to our code. We can define the code once, and use it many times.
+
+2.Describe in your own words what is the reason why arguments are defined in a function. Why are they passed when a function is called?
+
+my answer: with arguments we can change the passed values inside the function and create more complex things. So we can use the same code many times with different arguments, to produce different results.
