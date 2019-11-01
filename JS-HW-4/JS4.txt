@@ -1,0 +1,3 @@
+Explain in your own words what the object method is
+
+my answer : methods are like a function. they create some kind of actions. These actions can be performed on object. methods are functions also object properties.Using function as property inside an object creates method
