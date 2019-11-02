@@ -6,16 +6,17 @@ let num2 = parseInt(prompt("enter second number"))
 while(isNaN(num2)){
     num2 = parseInt(prompt("enter second number"))
 }
-let operation = prompt("enter an operation","only * ; / ; + ; -")
-function getResult(){
-    if(operation=="+"){
+let action = prompt("enter an operation","only * ; / ; + ; -")
+
+function getResult(num1,num2,action){
+    if(action=="+"){
         return num1 +num2
-    }else if(operation=="-"){
+    }else if(action=="-"){
         return num1 - num2
-    }else if(operation=="*"){
+    }else if(action=="*"){
         return num1 * num2
-    }else if(operation=="/"){
+    }else if(action=="/"){
         return num1 / num2
     }
 }
-console.log(getResult())
+console.log(getResult(num1,num2,action))
