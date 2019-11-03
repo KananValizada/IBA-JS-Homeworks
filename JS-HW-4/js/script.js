@@ -1,11 +1,19 @@
-function createNewUser(firstName,lastName){
- this.firstName=firstname;
- this.lastName=lastname
- this.getLogin = () => (this.firstName[0] + this.lastName).toLowerCase() 
- this.setFirstName =  (newFirstName) => this.firstName = newFirstName
- this.setLastName =  (newLastName) => this.lastName = newLastName
+let firstname;
+let lastname
+let newUser
+function createNewUser(){
+firstname =prompt("enter your name");
+lastname = prompt("enter your surname");
+newUser = { 
+    firstname,
+    lastname,
+    getLogin:function(){
+      return (this.firstname[0] + this.lastname).toLowerCase()
+    }  
 }
-let firstname =prompt("enter your name");
-let lastname = prompt("enter your surname");
-let newUser = new createNewUser(firstname,lastname)
+}
+
+createNewUser()
 console.log(newUser.getLogin())
+
+
