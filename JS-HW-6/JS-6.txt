@@ -1,0 +1,1 @@
+forEach method executes callback function once for each array element. We can do any operation to callback function's element I mean arrays elements one by one. Filter, Map returns array but forEach always returns undefined and it is main difference between them
