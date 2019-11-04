@@ -1,0 +1,1 @@
+shielding(escaping) in programming means that you are replacing some special characters with others. Escaping a string means to reduce ambiguity in quotes for example if my string has double quotes within it I have to use escaping and write backslash. in JS we also can use `` and $ signs to write our variable in the string
