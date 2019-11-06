@@ -1,0 +1,1 @@
+Document object model allows programs to dynamically access anchange content, style of document. With DOM js gets the power create dinamic HTML.
