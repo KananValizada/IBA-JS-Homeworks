@@ -1,0 +1,30 @@
+div{
+   
+    display: none;
+    border: 1px solid black;
+    border-radius: 20px;;
+    padding: 5px;
+}
+#close{
+display: inline-block;
+border-radius: 50%;
+background-color: white;
+border: none;
+padding: 0;
+cursor: pointer;
+}
+p {
+    width: 250px;
+    padding: 10px 5px;
+    display: block;
+    margin: 0 0 0 5px;
+}
+#alert{
+    display: none;
+    color:red;
+    margin-left: 10px;
+}
+#text {
+    color:green;
+    padding: 0 0 0 5px;
+}

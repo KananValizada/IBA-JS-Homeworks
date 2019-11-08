@@ -1,0 +1,1 @@
+We can add many handlers to one element. Handlers allow user to interract with Html page. It is a callback function and gets called when the event happens. Basically we can register an event for a particular action e.g click, keydown and ask JavaScript runtime to execute some set of action once action takes place.
