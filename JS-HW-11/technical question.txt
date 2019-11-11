@@ -1,0 +1,3 @@
+Why is the keyboard events not recommended for working with input?
+
+Because keyboard events are not enough to track inputs.We can track any input by any means with event named input.That's why it is not recomended
