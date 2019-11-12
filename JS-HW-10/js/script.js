@@ -2,7 +2,6 @@ let icon =document.querySelectorAll(".fas")
 let password =document.querySelectorAll(".password")
 let btn = document.getElementById("btn")
 let span =document.createElement("span")
-span.innerHTML="You need to enter the identical values"
 span.style.cssText="color:red"
 for(let i=0;i<icon.length; i++){
     icon[i].addEventListener("click",()=>{
@@ -22,8 +21,17 @@ function display(){
 btn.addEventListener("click",compare)
 function compare() {
 if(password[0].value==password[1].value){
-    alert("You are welcome")
+    if(password[0].value=="" && password[1].value==""){
+        span.innerHTML="You didn't wrote the password"
+        span.style.display="block"
+        btn.before(span)
+        return
+    }else{
+        alert("You are welcome")
+    }
+    
 }else {
+    span.innerHTML="You need to enter the identical values"
     span.style.display="block"
 btn.before(span)
 }
