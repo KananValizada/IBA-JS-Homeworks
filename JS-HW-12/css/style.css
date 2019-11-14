@@ -1,0 +1,19 @@
+.image-to-show {
+    width: 400px;
+    height: 400px;
+    
+  }
+
+  .images-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  button {
+      padding: 15px;
+      margin-top: 10px;
+      margin-left:20px;
+      background-color: teal;
+      color: white;
+      cursor: pointer;
+  }
