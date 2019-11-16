@@ -10,7 +10,7 @@ $("img").hide()
 $("img").eq(i).fadeIn(1000)
 i++
 if (i==4){i=0}
-},1000) 
+},10000) 
 stopBtn.addEventListener("click",stop)
 resumeBtn.addEventListener("click",resume)
 function stop(){
@@ -26,6 +26,6 @@ function resume(){
             $("img").eq(i).fadeIn(1000)
             i++
             if (i==4){i=0}
-            },1000) 
+            },10000) 
     }
 }
