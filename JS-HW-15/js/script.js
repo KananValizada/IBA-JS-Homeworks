@@ -9,3 +9,13 @@ function showBtn(){
         goUp.fadeOut(1000)
     }
 }
+
+$("#slide-btn").click(()=>{
+        $("#top-rated").slideToggle(500)
+        if($("#slide-btn").html()=="Hide"){
+             $("#slide-btn").html("Show")
+        }else{
+            $("#slide-btn").html("Hide")
+        }
+       
+})

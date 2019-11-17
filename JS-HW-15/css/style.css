@@ -31,16 +31,20 @@ body{
 }
 #go-up{
     position: fixed;
-    background-color: rgba(17, 78, 78, 0.5);
+    background-color: rgba(24, 180, 207,0.7);;
     color: white;
     padding: 10px;
     bottom: 20px;
     right: 50px;
 }
 #slide-btn{
-    padding: 10px;
-    background-color: teal;
+    display: inline-block;
+    padding: 11px 31px;
+    background-color: #18b4cf;
     color: white;
+    margin: 14px 46.7%;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 .header-logo h3{
     margin-left: 25px;
