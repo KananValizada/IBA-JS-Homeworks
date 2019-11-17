@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a,p,h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 70px;
+    background-color: #1d2124;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    align-items:center;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 33px;
+}
+#go-up{
+    position: fixed;
+    background-color: rgba(17, 78, 78, 0.5);
+    color: white;
+    padding: 10px;
+    bottom: 20px;
+    right: 50px;
+}
+#slide-btn{
+    padding: 10px;
+    background-color: teal;
+    color: white;
+}
+.header-logo h3{
+    margin-left: 25px;
+    font-size: 22px;
+
+}
+.header a{
+    font-size:15px;
+    display: inline-block;
+    margin-right:35px;
+    text-transform: uppercase;
+}
+.header-search {
+    margin-right: 25px;
+}
+.latest-news {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/header-bg-img.jpeg);
+    background-attachment: fixed;
+    background-position: 0 600px;
+
+}
+.latest-news-header{
+    font-size: 27px;
+    color: white;
+    margin-bottom: 45px;
+}
+.btn {
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3.5;
+    margin-right: 20px;
+
+}
+.green {
+    background-color: #89ca62;
+}
+.blue {
+    background-color: #14b9d5;
+}
+.popular-posts{
+    background-color: #f2f2f2;
+    padding: 50px 0 0 0;
+}
+.wrapper{
+    width: 1170px;
+    margin:0 auto
+}
+.main-header {
+    text-transform: uppercase;
+    color:#18b4cf;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.post-images {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.post-row {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+.post-content {
+    margin-bottom: 60px;
+    background-color: white;
+}
+.post-content p {
+    height: 60px;
+    text-align: center;
+    line-height: 3.5  ;
+    font-size: 18px;
+}
+.popular-clients {
+    height: 598px;
+    display: grid;
+    background-image: url(../img/bg-2.png);
+    background-attachment: fixed;
+    justify-content: center;
+}
+.popular-clients h3 {
+    text-align: center;
+    font-size: 32px;
+    color:white;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    align-self:center;
+}
+.client-names {
+    align-self: top;
+    display: inline-block;
+
+}
+.client-names img {
+    margin:auto 76px;
+    vertical-align: middle;
+}
+.popular-clients h3::after{
+    content: '';
+    display: block;
+    width: 55px;
+    height: 3px;
+    background-color: #169cb4;
+    position: absolute;
+    left: calc(100% / 2 - 55px);
+    bottom: -76px;
+}
+.top-rated {
+    padding: 60px 0 0 0;
+}
+.top-rated-images{
+    display: grid;
+    grid-template-columns: repeat(7,calc(100% / 7 ));
+}
+.top-rated-images img {
+    width: 100%;
+}
+.hot-news {
+    padding: 60px 0 0 0;
+}
+.hot-contents {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 259px 418px 418px 259px;
+    grid-gap: 60px;
+    font-size: 14px;
+}
+.content-style1 {
+    grid-column: span 3;
+   display: flex;
+   text-align: right;
+   background-color: #f9f7f7;;
+}
+.content-style1-text {
+   padding: 0 0 0 25px ;
+   box-sizing: border-box;
+}
+.content-header {
+font-size: 18px;
+font-weight: 700;
+margin: 20px 0;
+}
+.content-style3 {
+    grid-column:  span 2;
+    text-align: right;
+    background-color: #f9f7f7
+}
+.content-style2 {
+    text-align: center;
+    background-color: #f9f7f7;
+}
+.footer {
+    background-color: #1d2124;
+    color: white;
+    height: 80px;
+    margin-top: 70px;
+}
+.footer-content {
+display:grid;
+grid-template-columns: 2fr 1fr;
+height: 80px;
+align-content: center;
+}
+.right-reserved {
+    line-height: 2;
+}
+.foot-logo {
+    text-align: right;
+}
+.foot-logo h3 {
+display: inline-block;
+font-size: 30px;
+}
